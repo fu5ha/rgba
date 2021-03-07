@@ -1,0 +1,57 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>H:\Documents\KiCad\rgba\rgba.sch</h1>
+    <p>3/7/2021 2:14:41 AM</p>
+    <p>Eeschema (5.1.9)-1</p>
+    <p><b>Component Count:</b>78</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>C10, C23, C26, C41</td><td>4</td><td>1uF</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C20, C24, C25</td><td>3</td><td>2.2uF</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C21, C22, C27, C30, C31, C51, C600, C601, C602, C603</td><td>10</td><td>0.1uF</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C32, C40, C42, C50, C52, C53</td><td>6</td><td>10uF</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C610, C620</td><td>2</td><td>4.3nF</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C611, C612, C621, C625</td><td>4</td><td>33pF</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>D1, D2, D30</td><td>3</td><td>D_Small</td><td>Device:D_Small</td><td>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</td><td>Diode, small symbol</td><td></td></tr>
+    <tr><td>D3</td><td>1</td><td>RED</td><td>Device:LED</td><td>LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder</td><td>Light emitting diode</td><td></td></tr>
+    <tr><td>D4</td><td>1</td><td>BLUE</td><td>Device:LED</td><td>LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder</td><td>Light emitting diode</td><td></td></tr>
+    <tr><td>D5</td><td>1</td><td>GREEN</td><td>Device:LED</td><td>LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder</td><td>Light emitting diode</td><td></td></tr>
+    <tr><td>J1</td><td>1</td><td>USB_C_Receptacle_USB2.0</td><td>Connector:USB_C_Receptacle_USB2.0</td><td>Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A</td><td>USB 2.0-only Type-C Receptacle connector</td><td></td></tr>
+    <tr><td>J2</td><td>1</td><td>BATT CONN</td><td>Connector:Conn_01x02_Male</td><td>Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J3</td><td>1</td><td>UART_GND</td><td>Connector:Conn_01x01_Male</td><td>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J4</td><td>1</td><td>R SPK OUT</td><td>Connector:Conn_01x03_Male</td><td>Connector_Wire:SolderWire-0.1sqmm_1x03_P3.6mm_D0.4mm_OD1mm</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J5</td><td>1</td><td>L SPK OUT</td><td>Connector:Conn_01x03_Male</td><td>Connector_Wire:SolderWire-0.1sqmm_1x03_P3.6mm_D0.4mm_OD1mm</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J6</td><td>1</td><td>UART_CTS</td><td>Connector:Conn_01x01_Male</td><td>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J7</td><td>1</td><td>UART_VBUS</td><td>Connector:Conn_01x01_Male</td><td>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J8</td><td>1</td><td>UART_TX</td><td>Connector:Conn_01x01_Male</td><td>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J9</td><td>1</td><td>UART_RX</td><td>Connector:Conn_01x01_Male</td><td>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J10</td><td>1</td><td>UART_RTS</td><td>Connector:Conn_01x01_Male</td><td>TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J11</td><td>1</td><td>Screw 1</td><td>Connector:Screw_Terminal_01x01</td><td>MountingHole:MountingHole_2.2mm_M2_Pad_Via</td><td>Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J12</td><td>1</td><td>Screw 2</td><td>Connector:Screw_Terminal_01x01</td><td>MountingHole:MountingHole_2.2mm_M2_Pad_Via</td><td>Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>L30</td><td>1</td><td>2.2uH</td><td>Device:L_Small</td><td>Inductor_SMD:L_TDK_VLS3012</td><td>Inductor, small symbol</td><td></td></tr>
+    <tr><td>L50, L51</td><td>2</td><td>4.7uH</td><td>Device:L_Small</td><td>Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder</td><td>Inductor, small symbol</td><td></td></tr>
+    <tr><td>R1, R2, R3, R610, R611, R620, R621</td><td>7</td><td>1k</td><td>Device:R_Small</td><td>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R10, R11, R31</td><td>3</td><td>100k</td><td>Device:R_Small</td><td>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R22, R614, R615, R624</td><td>4</td><td>68</td><td>Device:R_Small</td><td>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R30</td><td>1</td><td>100</td><td>Device:R_Small</td><td>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R612, R613, R622, R623</td><td>4</td><td>4.7k</td><td>Device:R_Small</td><td>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>SW1</td><td>1</td><td>POWER/PLAY/PAUSE</td><td>Switch:SW_SPST</td><td>SamacSys_Parts:TL4110AF160Q</td><td>Single Pole Single Throw (SPST) switch</td><td></td></tr>
+    <tr><td>SW2</td><td>1</td><td>VOL+/NEXT</td><td>Switch:SW_SPST</td><td>SamacSys_Parts:TL4110AF160Q</td><td>Single Pole Single Throw (SPST) switch</td><td></td></tr>
+    <tr><td>SW3</td><td>1</td><td>VOL-/BACK</td><td>Switch:SW_SPST</td><td>SamacSys_Parts:TL4110AF160Q</td><td>Single Pole Single Throw (SPST) switch</td><td></td></tr>
+    <tr><td>U1</td><td>1</td><td>FSC-BT806</td><td>feasycom:FSC-BT806</td><td>Feasycom:FSC-BT806</td><td>Qualcomm CSR8675 based bluetooth audio module.</td><td></td></tr>
+    <tr><td>U2</td><td>1</td><td>PCM5242</td><td>Audio:PCM5242</td><td>Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm</td><td>4.2-VRMS DirectPath, 114-dB Audio Stereo DAC 32-bit, 384-kHz, VQFN-32</td><td></td></tr>
+    <tr><td>U3</td><td>1</td><td>TPS63001</td><td>Regulator_Switching:TPS63001</td><td>Package_SON:Texas_DRC0010J_ThermalVias</td><td>Buck-Boost Converter, 1.8-5.5V Input Voltage, 1.7A Switch Current, 3.3V Output Voltage, VSON-10</td><td></td></tr>
+    <tr><td>U4</td><td>1</td><td>TPS7A3501</td><td>Regulator_Linear:TPS7A3501</td><td>Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias</td><td>High PSRR, Ultra-Low-Noise, 1-A Power Filter, WSON-6</td><td></td></tr>
+    <tr><td>U5</td><td>1</td><td>TPS65133DPD</td><td>Regulator_Switching:TPS65133DPD</td><td>Package_SON:WSON-12-1EP_3x3mm_P0.45mm_EP1.2x2mm</td><td>Split-Rail Converter with Dual, Positive and Negative Outputs, 2.9-5.0V in +/- 5.0V out, 250mA output, WSON-12</td><td></td></tr>
+    <tr><td>U6</td><td>1</td><td>OPA1662</td><td>Amplifier_Audio:OPA1662</td><td>Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm</td><td>Dual SoundPlus High Performance, low power, low noise, low distortion, Audio Operational Amplifier, SOIC-8, VSSOP-8</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    
