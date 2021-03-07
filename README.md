@@ -17,4 +17,4 @@ Here are a couple of renders of the latest version of the PCB.
 
 ## Bill of Materials
 
-A (hopefully up-to-date) bill of materials is available in [rgba_bom.xls](https://i.imgur.com/y4aU4Yq.png).
+A (hopefully up-to-date) bill of materials is available in [rgba_bom.xls](/rgba_bom.xls).
