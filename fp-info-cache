@@ -1,4 +1,4 @@
-19093669862581539
+19095291894358734
 AN9520
 SMD_ANT9520
 SMD antenna, 9.5x2.0mm, 2p
@@ -44491,6 +44491,13 @@ USB C Type-C Receptacle USB2.0
 0
 20
 17
+Connector_USB
+USB_C_Receptacle_UJC-HP-3-SMT-TR
+USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
+usb usb-c 2.0 pd
+0
+10
+7
 Connector_USB
 USB_C_Receptacle_XKB_U262-16XN-4BVC11
 USB Type C, right-angle, SMT, https://datasheet.lcsc.com/szlcsc/1811141824_XKB-Enterprise-U262-161N-4BVC11_C319148.pdf

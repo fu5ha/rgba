@@ -12,8 +12,8 @@ See [rgba.pdf](/rgba.pdf) for an up to date copy of the schematic.
 
 Here are a couple of renders of the latest version of the PCB.
 
-![front side](https://i.imgur.com/iruL3f7.png)
-![back side](https://i.imgur.com/y4aU4Yq.png)
+![front side](https://i.imgur.com/sNLV85Q.png)
+![back side](https://i.imgur.com/L4vUX6v.png)
 
 ## Bill of Materials
 
