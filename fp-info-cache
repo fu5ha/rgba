@@ -1,1 +1,50 @@
+11320192464543
+rgba
+FSC-BT806
+Feasycom BT806 Bluetooth Low Energy audio module featuring Qualcomm CSR8670/8675
+audio bluetooth aptx feasycom
 0
+52
+52
+rgba
+MountingHole_1.2mm_M1_Pad
+
+
+0
+1
+1
+rgba
+QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm
+QFN, 32 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_32_05-08-1693.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+42
+33
+rgba
+SolderWire_AudioOut_1x03_P2.0mm
+
+
+0
+3
+3
+rgba
+USB_C_Receptacle_UJC-HP-3-SMT-TR
+USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
+usb usb-c 2.0 pd
+0
+10
+7
+rgba
+VSON-8_1.5x2mm_P0.5mm
+Texas Instruments DLC0008B package
+
+0
+8
+8
+rgba
+WSON-12-1EP_3x3mm_P0.45mm_EP1.2x2mm
+WSON-12 http://www.ti.com/lit/ds/symlink/lm27762.pdf
+WSON-12
+0
+15
+13

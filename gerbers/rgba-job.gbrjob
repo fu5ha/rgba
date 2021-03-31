@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.9)-1"
     },
-    "CreationDate":  "2021-03-14T10:57:35-07:00"
+    "CreationDate":  "2021-03-31T05:11:12-07:00"
   },
   "GeneralSpecs":
   {
@@ -15,12 +15,12 @@
     {
       "Name": "rgba",
       "GUID": "72676261-2e6b-4696-9361-645f70636258",
-      "Revision": "1"
+      "Revision": "1.1"
     },
     "Size":
     {
-      "X": 0.000,
-      "Y": 0.000
+      "X": 40.050,
+      "Y": 22.550
     },
     "LayerNumber": 4,
     "BoardThickness":  1.600

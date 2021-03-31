@@ -14,24 +14,26 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L feasycom:FSC-BT806 U1
+L rgba:FSC-BT806 U1
 U 1 1 603E36D4
 P 2200 4000
 F 0 "U1" H 2200 5350 50  0000 C CNN
 F 1 "FSC-BT806" H 2200 5250 50  0000 C CNN
-F 2 "Feasycom:FSC-BT806" H 2200 4050 50  0001 C CNN
+F 2 "rgba:FSC-BT806" H 2200 4050 50  0001 C CNN
 F 3 "" H 2200 4050 50  0001 C CNN
+F 4 "https://www.aliexpress.com/i/4000096888920.html" H 2200 4000 50  0001 C CNN "Source"
 	1    2200 4000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Audio:OPA1662 U6
+L rgba:OPA1662 U6
 U 2 1 60405F1F
 P 10250 5300
 F 0 "U6" H 10350 5450 50  0000 C CNN
 F 1 "OPA1662" H 10350 5550 50  0000 C CNN
-F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 10250 4500 50  0001 C CNN
+F 2 "rgba:VSSOP-8_3.0x3.0mm_P0.65mm" H 10250 4500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa1662.pdf" H 10250 5300 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 10250 5300 50  0001 C CNN "Source"
 	2    10250 5300
 	1    0    0    1   
 $EndComp
@@ -47,13 +49,14 @@ F 3 "" H 2800 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:TPS7A3501 U4
+L rgba:TPS7A3501 U4
 U 1 1 6047A916
 P 6850 1500
 F 0 "U4" H 6850 1950 50  0000 C CNN
 F 1 "TPS7A3501" H 6850 1850 50  0000 C CNN
-F 2 "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias" H 6850 2000 50  0001 C CNN
+F 2 "rgba:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias" H 6850 2000 50  0001 C CNN
 F 3 "" H 6850 1850 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 6850 1500 50  0001 C CNN "Source"
 	1    6850 1500
 	1    0    0    -1  
 $EndComp
@@ -69,6 +72,7 @@ F 0 "C40" H 6150 1400 50  0000 L CNN
 F 1 "10uF" H 6150 1300 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 6350 1400 50  0001 C CNN
 F 3 "~" H 6350 1400 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 6350 1400 50  0001 C CNN "Source"
 	1    6350 1400
 	1    0    0    -1  
 $EndComp
@@ -80,12 +84,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0104
 U 1 1 604919DB
-P 6500 1800
-F 0 "#PWR0104" H 6500 1550 50  0001 C CNN
-F 1 "GND" H 6505 1627 50  0000 C CNN
-F 2 "" H 6500 1800 50  0001 C CNN
-F 3 "" H 6500 1800 50  0001 C CNN
-	1    6500 1800
+P 6500 2000
+F 0 "#PWR0104" H 6500 1750 50  0001 C CNN
+F 1 "GND" H 6505 1827 50  0000 C CNN
+F 2 "" H 6500 2000 50  0001 C CNN
+F 3 "" H 6500 2000 50  0001 C CNN
+	1    6500 2000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -107,6 +111,7 @@ F 0 "C41" H 7292 1946 50  0000 L CNN
 F 1 "1uF" H 7292 1855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 7200 1900 50  0001 C CNN
 F 3 "~" H 7200 1900 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 7200 1900 50  0001 C CNN "Source"
 	1    7200 1900
 	1    0    0    -1  
 $EndComp
@@ -118,6 +123,7 @@ F 0 "C42" H 7450 1400 50  0000 L CNN
 F 1 "10uF" H 7400 1300 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 7350 1400 50  0001 C CNN
 F 3 "~" H 7350 1400 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 7350 1400 50  0001 C CNN "Source"
 	1    7350 1400
 	1    0    0    -1  
 $EndComp
@@ -202,9 +208,9 @@ F 3 "" H 5900 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2200 5400 3    50   Input ~ 0
-PIO6
+VOL+_NEXT
 Text GLabel 2300 5400 3    50   Input ~ 0
-PIO7
+VOL-_PREV
 Text GLabel 1500 3200 0    50   Input ~ 0
 I2S_CLK
 Text GLabel 1500 3400 0    50   Input ~ 0
@@ -300,9 +306,10 @@ L Device:R_Small R610
 U 1 1 6082707B
 P 9450 3000
 F 0 "R610" V 9254 3000 50  0000 C CNN
-F 1 "1k" V 9345 3000 50  0000 C CNN
+F 1 "1K" V 9345 3000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 9450 3000 50  0001 C CNN
 F 3 "~" H 9450 3000 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 9450 3000 50  0001 C CNN "Source"
 	1    9450 3000
 	0    1    1    0   
 $EndComp
@@ -311,9 +318,10 @@ L Device:R_Small R611
 U 1 1 608288D4
 P 9450 3650
 F 0 "R611" V 9350 3650 50  0000 C CNN
-F 1 "1k" V 9250 3650 50  0000 C CNN
+F 1 "1K" V 9250 3650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 9450 3650 50  0001 C CNN
 F 3 "~" H 9450 3650 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 9450 3650 50  0001 C CNN "Source"
 	1    9450 3650
 	0    -1   -1   0   
 $EndComp
@@ -322,9 +330,10 @@ L Device:R_Small R612
 U 1 1 6082C355
 P 9750 3000
 F 0 "R612" V 9554 3000 50  0000 C CNN
-F 1 "4.7k" V 9645 3000 50  0000 C CNN
+F 1 "4.7K" V 9645 3000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 9750 3000 50  0001 C CNN
 F 3 "~" H 9750 3000 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 9750 3000 50  0001 C CNN "Source"
 	1    9750 3000
 	0    1    1    0   
 $EndComp
@@ -333,9 +342,10 @@ L Device:R_Small R613
 U 1 1 6082CCD0
 P 9750 3650
 F 0 "R613" V 9650 3650 50  0000 C CNN
-F 1 "4.7k" V 9550 3650 50  0000 C CNN
+F 1 "4.7K" V 9550 3650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 9750 3650 50  0001 C CNN
 F 3 "~" H 9750 3650 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 9750 3650 50  0001 C CNN "Source"
 	1    9750 3650
 	0    -1   -1   0   
 $EndComp
@@ -347,6 +357,7 @@ F 0 "C610" H 9700 3350 50  0000 L CNN
 F 1 "4.3nF" H 9650 3450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9600 3350 50  0001 C CNN
 F 3 "~" H 9600 3350 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 9600 3350 50  0001 C CNN "Source"
 	1    9600 3350
 	-1   0    0    1   
 $EndComp
@@ -377,9 +388,10 @@ L Device:R_Small R615
 U 1 1 60875597
 P 10350 3000
 F 0 "R615" V 10450 3000 50  0000 C CNN
-F 1 "68" V 10550 3000 50  0000 C CNN
+F 1 "68R" V 10550 3000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 10350 3000 50  0001 C CNN
 F 3 "~" H 10350 3000 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 10350 3000 50  0001 C CNN "Source"
 	1    10350 3000
 	0    1    1    0   
 $EndComp
@@ -391,6 +403,7 @@ F 0 "C612" V 10450 2700 50  0000 L CNN
 F 1 "33pF" V 10550 2700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10350 2800 50  0001 C CNN
 F 3 "~" H 10350 2800 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 10350 2800 50  0001 C CNN "Source"
 	1    10350 2800
 	0    -1   -1   0   
 $EndComp
@@ -419,6 +432,7 @@ F 0 "C611" H 10250 4000 50  0000 L CNN
 F 1 "33pF" H 10200 3900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10150 4000 50  0001 C CNN
 F 3 "~" H 10150 4000 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 10150 4000 50  0001 C CNN "Source"
 	1    10150 4000
 	1    0    0    -1  
 $EndComp
@@ -427,9 +441,10 @@ L Device:R_Small R614
 U 1 1 60897CC6
 P 9950 4000
 F 0 "R614" H 10100 4000 50  0000 C CNN
-F 1 "68" H 10050 4100 50  0000 C CNN
+F 1 "68R" H 10050 4100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 9950 4000 50  0001 C CNN
 F 3 "~" H 9950 4000 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 9950 4000 50  0001 C CNN "Source"
 	1    9950 4000
 	-1   0    0    1   
 $EndComp
@@ -476,9 +491,10 @@ L Device:R_Small R620
 U 1 1 608C3EA2
 P 9450 4950
 F 0 "R620" V 9254 4950 50  0000 C CNN
-F 1 "1k" V 9345 4950 50  0000 C CNN
+F 1 "1K" V 9345 4950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 9450 4950 50  0001 C CNN
 F 3 "~" H 9450 4950 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 9450 4950 50  0001 C CNN "Source"
 	1    9450 4950
 	0    1    1    0   
 $EndComp
@@ -487,9 +503,10 @@ L Device:R_Small R621
 U 1 1 608C3EAC
 P 9450 5600
 F 0 "R621" V 9350 5600 50  0000 C CNN
-F 1 "1k" V 9250 5600 50  0000 C CNN
+F 1 "1K" V 9250 5600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 9450 5600 50  0001 C CNN
 F 3 "~" H 9450 5600 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 9450 5600 50  0001 C CNN "Source"
 	1    9450 5600
 	0    -1   -1   0   
 $EndComp
@@ -498,9 +515,10 @@ L Device:R_Small R622
 U 1 1 608C3EB6
 P 9750 4950
 F 0 "R622" V 9554 4950 50  0000 C CNN
-F 1 "4.7k" V 9645 4950 50  0000 C CNN
+F 1 "4.7K" V 9645 4950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 9750 4950 50  0001 C CNN
 F 3 "~" H 9750 4950 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 9750 4950 50  0001 C CNN "Source"
 	1    9750 4950
 	0    1    1    0   
 $EndComp
@@ -509,9 +527,10 @@ L Device:R_Small R623
 U 1 1 608C3EC0
 P 9750 5600
 F 0 "R623" V 9650 5600 50  0000 C CNN
-F 1 "4.7k" V 9550 5600 50  0000 C CNN
+F 1 "4.7K" V 9550 5600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 9750 5600 50  0001 C CNN
 F 3 "~" H 9750 5600 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 9750 5600 50  0001 C CNN "Source"
 	1    9750 5600
 	0    -1   -1   0   
 $EndComp
@@ -523,6 +542,7 @@ F 0 "C620" H 9700 5300 50  0000 L CNN
 F 1 "4.3nF" H 9650 5400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9600 5300 50  0001 C CNN
 F 3 "~" H 9600 5300 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 9600 5300 50  0001 C CNN "Source"
 	1    9600 5300
 	-1   0    0    1   
 $EndComp
@@ -553,9 +573,10 @@ L Device:R_Small R22
 U 1 1 608C3EE0
 P 10350 4950
 F 0 "R22" V 10450 4950 50  0000 C CNN
-F 1 "68" V 10550 4950 50  0000 C CNN
+F 1 "68R" V 10550 4950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 10350 4950 50  0001 C CNN
 F 3 "~" H 10350 4950 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 10350 4950 50  0001 C CNN "Source"
 	1    10350 4950
 	0    1    1    0   
 $EndComp
@@ -567,6 +588,7 @@ F 0 "C625" V 10450 4650 50  0000 L CNN
 F 1 "33pF" V 10550 4650 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10350 4750 50  0001 C CNN
 F 3 "~" H 10350 4750 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 10350 4750 50  0001 C CNN "Source"
 	1    10350 4750
 	0    -1   -1   0   
 $EndComp
@@ -601,6 +623,7 @@ F 0 "C621" H 10250 5950 50  0000 L CNN
 F 1 "33pF" H 10200 5850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10150 5950 50  0001 C CNN
 F 3 "~" H 10150 5950 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 10150 5950 50  0001 C CNN "Source"
 	1    10150 5950
 	1    0    0    -1  
 $EndComp
@@ -609,9 +632,10 @@ L Device:R_Small R624
 U 1 1 608C3F0C
 P 9950 5950
 F 0 "R624" H 10100 5950 50  0000 C CNN
-F 1 "68" H 10050 6050 50  0000 C CNN
+F 1 "68R" H 10050 6050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 9950 5950 50  0001 C CNN
 F 3 "~" H 9950 5950 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 9950 5950 50  0001 C CNN "Source"
 	1    9950 5950
 	-1   0    0    1   
 $EndComp
@@ -659,8 +683,9 @@ U 1 1 60404BF8
 P 10250 3350
 F 0 "U6" H 10350 3500 50  0000 C CNN
 F 1 "OPA1662" H 10350 3600 50  0000 C CNN
-F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 10250 2550 50  0001 C CNN
+F 2 "rgba:VSSOP-8_3.0x3.0mm_P0.65mm" H 10250 2550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa1662.pdf" H 10250 3350 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 10250 3350 50  0001 C CNN "Source"
 	1    10250 3350
 	1    0    0    1   
 $EndComp
@@ -683,6 +708,7 @@ F 0 "C25" H 6800 3950 50  0000 L CNN
 F 1 "2.2uF" H 6800 4050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6700 4000 50  0001 C CNN
 F 3 "~" H 6700 4000 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 6700 4000 50  0001 C CNN "Source"
 	1    6700 4000
 	1    0    0    1   
 $EndComp
@@ -713,13 +739,14 @@ F 3 "" H 5250 4400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Audio:PCM5242_HW_CTRL U2
+L rgba:PCM5242_HW_CTRL U2
 U 1 1 604167CB
 P 5900 3550
 F 0 "U2" H 5850 3650 50  0000 L CNN
 F 1 "PCM5242" H 5700 3550 50  0000 L CNN
-F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" H 5950 4600 50  0001 C CNN
+F 2 "rgba:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" H 5950 4600 50  0001 C CNN
 F 3 "" H 5900 4450 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 5900 3550 50  0001 C CNN "Source"
 	1    5900 3550
 	1    0    0    -1  
 $EndComp
@@ -731,6 +758,7 @@ F 0 "C24" V 6250 4450 50  0000 L CNN
 F 1 "2.2uF" V 6050 4400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6150 4500 50  0001 C CNN
 F 3 "~" H 6150 4500 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 6150 4500 50  0001 C CNN "Source"
 	1    6150 4500
 	0    1    -1   0   
 $EndComp
@@ -742,6 +770,7 @@ F 0 "C20" H 4950 4800 50  0000 L CNN
 F 1 "2.2uF" H 4900 4700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4850 4800 50  0001 C CNN
 F 3 "~" H 4850 4800 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 4850 4800 50  0001 C CNN "Source"
 	1    4850 4800
 	-1   0    0    -1  
 $EndComp
@@ -767,6 +796,7 @@ F 0 "C22" H 5650 4800 50  0000 L CNN
 F 1 "0.1uF" H 5600 4700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 5550 4800 50  0001 C CNN
 F 3 "~" H 5550 4800 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 5550 4800 50  0001 C CNN "Source"
 	1    5550 4800
 	-1   0    0    -1  
 $EndComp
@@ -843,8 +873,9 @@ U 3 1 60407A42
 P 8550 5300
 F 0 "U6" H 8600 5400 50  0000 L CNN
 F 1 "OPA1662" H 8500 5300 50  0000 L CNN
-F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 8550 4500 50  0001 C CNN
+F 2 "rgba:VSSOP-8_3.0x3.0mm_P0.65mm" H 8550 4500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa1662.pdf" H 8550 5300 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 8550 5300 50  0001 C CNN "Source"
 	3    8550 5300
 	1    0    0    -1  
 $EndComp
@@ -867,6 +898,7 @@ F 0 "C600" H 7950 5100 50  0000 L CNN
 F 1 "0.1uF" H 7900 5200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 7850 5100 50  0001 C CNN
 F 3 "~" H 7850 5100 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 7850 5100 50  0001 C CNN "Source"
 	1    7850 5100
 	-1   0    0    1   
 $EndComp
@@ -878,6 +910,7 @@ F 0 "C602" H 8350 5100 50  0000 L CNN
 F 1 "0.1uF" H 8300 5200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8250 5100 50  0001 C CNN
 F 3 "~" H 8250 5100 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 8250 5100 50  0001 C CNN "Source"
 	1    8250 5100
 	-1   0    0    1   
 $EndComp
@@ -889,6 +922,7 @@ F 0 "C603" H 8000 5500 50  0000 L CNN
 F 1 "0.1uF" H 8000 5600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8250 5500 50  0001 C CNN
 F 3 "~" H 8250 5500 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 8250 5500 50  0001 C CNN "Source"
 	1    8250 5500
 	1    0    0    -1  
 $EndComp
@@ -907,6 +941,7 @@ F 0 "C601" H 7600 5500 50  0000 L CNN
 F 1 "0.1uF" H 7600 5600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 7850 5500 50  0001 C CNN
 F 3 "~" H 7850 5500 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 7850 5500 50  0001 C CNN "Source"
 	1    7850 5500
 	1    0    0    -1  
 $EndComp
@@ -928,16 +963,16 @@ Wire Notes Line
 Wire Notes Line
 	4250 2500 4250 6000
 Wire Notes Line
-	2800 450  2800 2500
+	2850 450  2850 2500
 Wire Notes Line
 	5750 500  5750 2500
 Text Notes 4350 2750 0    157  ~ 0
 DAC
 Text Notes 550  2750 0    157  ~ 0
 BT RX
-Text Notes 500  750  0    157  ~ 0
+Text Notes 550  750  0    157  ~ 0
 IN CONN
-Text Notes 2900 750  0    157  ~ 0
+Text Notes 2950 750  0    157  ~ 0
 3V3 REG
 Text Notes 5850 750  0    157  ~ 0
 3V3A FILTER
@@ -945,8 +980,6 @@ Text Notes 8150 2750 0    157  ~ 0
 AMP
 Text Notes 550  6250 0    157  ~ 0
 LEDS
-Wire Bus Line
-	3200 7800 3150 7800
 Text Notes 2950 6250 0    157  ~ 0
 BUTTONS\n
 $Comp
@@ -954,9 +987,10 @@ L Device:R_Small R11
 U 1 1 60435585
 P 3200 4850
 F 0 "R11" H 3050 4950 50  0000 C CNN
-F 1 "100k" H 3050 4850 50  0000 C CNN
+F 1 "100K" H 3050 4850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 3200 4850 50  0001 C CNN
 F 3 "~" H 3200 4850 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 3200 4850 50  0001 C CNN "Source"
 	1    3200 4850
 	-1   0    0    1   
 $EndComp
@@ -981,54 +1015,57 @@ $EndComp
 $Comp
 L Switch:SW_SPST SW1
 U 1 1 60424C12
-P 3800 6650
-F 0 "SW1" H 3800 6885 50  0000 C CNN
-F 1 "POWER/PLAY/PAUSE" H 3800 6794 50  0000 C CNN
-F 2 "SamacSys_Parts:TL4110AF160Q" H 3800 6650 50  0001 C CNN
-F 3 "~" H 3800 6650 50  0001 C CNN
-	1    3800 6650
+P 3800 6750
+F 0 "SW1" H 3800 6985 50  0000 C CNN
+F 1 "Switch_RA" H 3800 6894 50  0000 C CNN
+F 2 "rgba:TL4110AF160Q" H 3800 6750 50  0001 C CNN
+F 3 "~" H 3800 6750 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 3800 6750 50  0001 C CNN "Source"
+	1    3800 6750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_SPST SW2
 U 1 1 6045231B
-P 3800 7100
-F 0 "SW2" H 3800 7335 50  0000 C CNN
-F 1 "VOL+/NEXT" H 3800 7244 50  0000 C CNN
-F 2 "SamacSys_Parts:TL4110AF160Q" H 3800 7100 50  0001 C CNN
-F 3 "~" H 3800 7100 50  0001 C CNN
-	1    3800 7100
+P 3800 7200
+F 0 "SW2" H 3800 7435 50  0000 C CNN
+F 1 "Switch_RA" H 3800 7344 50  0000 C CNN
+F 2 "rgba:TL4110AF160Q" H 3800 7200 50  0001 C CNN
+F 3 "~" H 3800 7200 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 3800 7200 50  0001 C CNN "Source"
+	1    3800 7200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_SPST SW3
 U 1 1 604526B0
-P 3800 7550
-F 0 "SW3" H 3800 7785 50  0000 C CNN
-F 1 "VOL-/BACK" H 3800 7694 50  0000 C CNN
-F 2 "SamacSys_Parts:TL4110AF160Q" H 3800 7550 50  0001 C CNN
-F 3 "~" H 3800 7550 50  0001 C CNN
-	1    3800 7550
+P 3800 7650
+F 0 "SW3" H 3800 7885 50  0000 C CNN
+F 1 "Switch_RA" H 3800 7794 50  0000 C CNN
+F 2 "rgba:TL4110AF160Q" H 3800 7650 50  0001 C CNN
+F 3 "~" H 3800 7650 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 3800 7650 50  0001 C CNN "Source"
+	1    3800 7650
 	1    0    0    -1  
 $EndComp
-Text GLabel 3500 6650 0    50   Input ~ 0
+Text GLabel 3500 6750 0    50   Input ~ 0
 VREG_IN
-Text GLabel 3500 7100 0    50   Input ~ 0
-PIO6
-Text GLabel 3500 7550 0    50   Input ~ 0
-PIO7
+Text GLabel 3500 7200 0    50   Input ~ 0
+VOL+_NEXT
+Text GLabel 3500 7650 0    50   Input ~ 0
+VOL-_PREV
 Wire Wire Line
-	3500 7550 3600 7550
+	3500 7650 3600 7650
 Wire Wire Line
-	3500 7100 3600 7100
+	3500 7200 3600 7200
 Wire Wire Line
-	3500 6650 3600 6650
+	3500 6750 3600 6750
 Wire Wire Line
-	4000 7100 4100 7100
+	4000 7200 4100 7200
 Wire Wire Line
-	4100 7100 4100 7550
+	4100 7200 4100 7650
 Wire Wire Line
-	4000 7550 4100 7550
+	4000 7650 4100 7650
 $Comp
 L power:VBUS #PWR0137
 U 1 1 6052751B
@@ -1048,6 +1085,7 @@ F 0 "D30" H 3250 943 50  0000 C CNN
 F 1 "D_Small" H 3250 1034 50  0000 C CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3250 1150 50  0001 C CNN
 F 3 "~" V 3250 1150 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 3250 1150 50  0001 C CNN "Source"
 	1    3250 1150
 	-1   0    0    1   
 $EndComp
@@ -1081,6 +1119,7 @@ F 0 "C21" H 5300 4800 50  0000 L CNN
 F 1 "0.1uF" H 5250 4700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 5200 4800 50  0001 C CNN
 F 3 "~" H 5200 4800 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 5200 4800 50  0001 C CNN "Source"
 	1    5200 4800
 	-1   0    0    -1  
 $EndComp
@@ -1100,30 +1139,30 @@ Wire Wire Line
 	5200 4700 5550 4700
 Connection ~ 5550 4700
 Wire Wire Line
-	4000 6650 4500 6650
+	4000 6750 4500 6750
 Wire Wire Line
-	4100 7100 4500 7100
-Connection ~ 4100 7100
+	4100 7200 4500 7200
+Connection ~ 4100 7200
 $Comp
 L power:VBAT #PWR0146
 U 1 1 60871EB6
-P 4500 6650
-F 0 "#PWR0146" H 4150 6550 50  0001 C CNN
-F 1 "VBAT" H 4515 6823 50  0000 C CNN
-F 2 "" H 4500 6650 50  0001 C CNN
-F 3 "" H 4500 6650 50  0001 C CNN
-	1    4500 6650
+P 4500 6750
+F 0 "#PWR0146" H 4150 6650 50  0001 C CNN
+F 1 "VBAT" H 4515 6923 50  0000 C CNN
+F 2 "" H 4500 6750 50  0001 C CNN
+F 3 "" H 4500 6750 50  0001 C CNN
+	1    4500 6750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0147
 U 1 1 6087E8D1
-P 4500 7100
-F 0 "#PWR0147" H 4500 6950 50  0001 C CNN
-F 1 "+3.3V" H 4515 7273 50  0000 C CNN
-F 2 "" H 4500 7100 50  0001 C CNN
-F 3 "" H 4500 7100 50  0001 C CNN
-	1    4500 7100
+P 4500 7200
+F 0 "#PWR0147" H 4500 7050 50  0001 C CNN
+F 1 "+3.3V" H 4515 7373 50  0000 C CNN
+F 2 "" H 4500 7200 50  0001 C CNN
+F 3 "" H 4500 7200 50  0001 C CNN
+	1    4500 7200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1147,6 +1186,7 @@ F 0 "C10" H 3650 4600 50  0000 R CNN
 F 1 "1uF" H 3700 4700 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 3750 4600 50  0001 C CNN
 F 3 "~" H 3750 4600 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 3750 4600 50  0001 C CNN "Source"
 	1    3750 4600
 	-1   0    0    1   
 $EndComp
@@ -1193,9 +1233,10 @@ L Device:R_Small R10
 U 1 1 6092375D
 P 950 3600
 F 0 "R10" V 850 3600 50  0000 C CNN
-F 1 "100k" V 750 3600 50  0000 C CNN
+F 1 "100K" V 750 3600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 950 3600 50  0001 C CNN
 F 3 "~" H 950 3600 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 950 3600 50  0001 C CNN "Source"
 	1    950  3600
 	0    -1   -1   0   
 $EndComp
@@ -1223,6 +1264,7 @@ F 0 "C27" H 7200 3350 50  0000 L CNN
 F 1 "0.1uF" H 7200 3250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 7100 3300 50  0001 C CNN
 F 3 "~" H 7100 3300 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 7100 3300 50  0001 C CNN "Source"
 	1    7100 3300
 	1    0    0    -1  
 $EndComp
@@ -1236,6 +1278,7 @@ F 0 "C23" H 5450 4300 50  0000 L CNN
 F 1 "1uF" H 5350 4200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 5650 4250 50  0001 C CNN
 F 3 "~" H 5650 4250 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 5650 4250 50  0001 C CNN "Source"
 	1    5650 4250
 	1    0    0    -1  
 $EndComp
@@ -1262,169 +1305,169 @@ Wire Wire Line
 $Comp
 L power:VBAT #PWR0153
 U 1 1 60B023F8
-P 1100 6450
-F 0 "#PWR0153" H 750 6350 50  0001 C CNN
-F 1 "VBAT" V 1115 6578 50  0000 L CNN
-F 2 "" H 1100 6450 50  0001 C CNN
-F 3 "" H 1100 6450 50  0001 C CNN
-	1    1100 6450
+P 900 6550
+F 0 "#PWR0153" H 550 6450 50  0001 C CNN
+F 1 "VBAT" V 915 6678 50  0000 L CNN
+F 2 "" H 900 6550 50  0001 C CNN
+F 3 "" H 900 6550 50  0001 C CNN
+	1    900  6550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:VBUS #PWR0154
 U 1 1 60B032FD
-P 1100 6550
-F 0 "#PWR0154" H 1100 6400 50  0001 C CNN
-F 1 "VBUS" V 1115 6677 50  0000 L CNN
-F 2 "" H 1100 6550 50  0001 C CNN
-F 3 "" H 1100 6550 50  0001 C CNN
-	1    1100 6550
+P 900 6650
+F 0 "#PWR0154" H 900 6500 50  0001 C CNN
+F 1 "VBUS" V 915 6777 50  0000 L CNN
+F 2 "" H 900 6650 50  0001 C CNN
+F 3 "" H 900 6650 50  0001 C CNN
+	1    900  6650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D_Small D1
 U 1 1 60B03E85
-P 1300 6450
-F 0 "D1" H 1300 6243 50  0000 C CNN
-F 1 "D_Small" H 1300 6334 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1300 6450 50  0001 C CNN
-F 3 "~" V 1300 6450 50  0001 C CNN
-	1    1300 6450
+P 1000 6550
+F 0 "D1" H 1000 6343 50  0000 C CNN
+F 1 "D_Small" H 1000 6434 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1000 6550 50  0001 C CNN
+F 3 "~" V 1000 6550 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 1000 6550 50  0001 C CNN "Source"
+	1    1000 6550
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D2
 U 1 1 60B04B79
-P 1300 6550
-F 0 "D2" H 1300 6750 50  0000 C CNN
-F 1 "D_Small" H 1300 6650 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1300 6550 50  0001 C CNN
-F 3 "~" V 1300 6550 50  0001 C CNN
-	1    1300 6550
+P 1000 6650
+F 0 "D2" H 1000 6850 50  0000 C CNN
+F 1 "D_Small" H 1000 6750 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1000 6650 50  0001 C CNN
+F 3 "~" V 1000 6650 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 1000 6650 50  0001 C CNN "Source"
+	1    1000 6650
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1100 6550 1200 6550
+	1100 6650 1200 6650
 Wire Wire Line
-	1100 6450 1200 6450
+	1200 6650 1200 6550
 Wire Wire Line
-	1400 6550 1500 6550
-Wire Wire Line
-	1500 6550 1500 6450
-Wire Wire Line
-	1500 6450 1400 6450
+	1200 6550 1100 6550
 $Comp
-L Device:LED D3
+L Device:LED LED1
 U 1 1 60B2EB01
-P 1500 6700
-F 0 "D3" V 1539 6582 50  0000 R CNN
-F 1 "RED" V 1448 6582 50  0000 R CNN
-F 2 "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 1500 6700 50  0001 C CNN
-F 3 "~" H 1500 6700 50  0001 C CNN
-	1    1500 6700
+P 1200 6800
+F 0 "LED1" V 1239 6682 50  0000 R CNN
+F 1 "ORNG" V 1148 6682 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Castellated" H 1200 6800 50  0001 C CNN
+F 3 "~" H 1200 6800 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 1200 6800 50  0001 C CNN "Source"
+	1    1200 6800
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D4
+L Device:LED LED2
 U 1 1 60B3028B
-P 1850 6700
-F 0 "D4" V 1889 6582 50  0000 R CNN
-F 1 "BLUE" V 1798 6582 50  0000 R CNN
-F 2 "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 1850 6700 50  0001 C CNN
-F 3 "~" H 1850 6700 50  0001 C CNN
-	1    1850 6700
+P 1750 6800
+F 0 "LED2" V 1789 6682 50  0000 R CNN
+F 1 "BLUE" V 1698 6682 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Castellated" H 1750 6800 50  0001 C CNN
+F 3 "~" H 1750 6800 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 1750 6800 50  0001 C CNN "Source"
+	1    1750 6800
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D5
+L Device:LED LED3
 U 1 1 60B3060E
-P 2200 6700
-F 0 "D5" V 2239 6582 50  0000 R CNN
-F 1 "GREEN" V 2148 6582 50  0000 R CNN
-F 2 "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" H 2200 6700 50  0001 C CNN
-F 3 "~" H 2200 6700 50  0001 C CNN
-	1    2200 6700
+P 2300 6800
+F 0 "LED3" V 2339 6682 50  0000 R CNN
+F 1 "WHITE" V 2248 6682 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Castellated" H 2300 6800 50  0001 C CNN
+F 3 "~" H 2300 6800 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 2300 6800 50  0001 C CNN "Source"
+	1    2300 6800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small R1
 U 1 1 60B30A94
-P 1500 7000
-F 0 "R1" H 1559 7046 50  0000 L CNN
-F 1 "1k" H 1559 6955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 1500 7000 50  0001 C CNN
-F 3 "~" H 1500 7000 50  0001 C CNN
-	1    1500 7000
+P 1200 7100
+F 0 "R1" H 1259 7146 50  0000 L CNN
+F 1 "1K" H 1259 7055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 1200 7100 50  0001 C CNN
+F 3 "~" H 1200 7100 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 1200 7100 50  0001 C CNN "Source"
+	1    1200 7100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R2
 U 1 1 60B318D6
-P 1850 7000
-F 0 "R2" H 1909 7046 50  0000 L CNN
-F 1 "1k" H 1909 6955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 1850 7000 50  0001 C CNN
-F 3 "~" H 1850 7000 50  0001 C CNN
-	1    1850 7000
+P 1750 7100
+F 0 "R2" H 1809 7146 50  0000 L CNN
+F 1 "1K" H 1809 7055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 1750 7100 50  0001 C CNN
+F 3 "~" H 1750 7100 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 1750 7100 50  0001 C CNN "Source"
+	1    1750 7100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R3
 U 1 1 60B31BFC
-P 2200 7000
-F 0 "R3" H 2259 7046 50  0000 L CNN
-F 1 "1k" H 2259 6955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 2200 7000 50  0001 C CNN
-F 3 "~" H 2200 7000 50  0001 C CNN
-	1    2200 7000
+P 2300 7100
+F 0 "R3" H 2359 7146 50  0000 L CNN
+F 1 "1K" H 2359 7055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 2300 7100 50  0001 C CNN
+F 3 "~" H 2300 7100 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 2300 7100 50  0001 C CNN "Source"
+	1    2300 7100
 	1    0    0    -1  
 $EndComp
-Connection ~ 1500 6550
-Wire Wire Line
-	1500 6550 1850 6550
-Wire Wire Line
-	1850 6550 2200 6550
-Connection ~ 1850 6550
-Text GLabel 1500 7150 3    50   Input ~ 0
+Connection ~ 1200 6650
+Text GLabel 1200 7250 3    50   Input ~ 0
 LED_CHG
-Text GLabel 1850 7150 3    50   Input ~ 0
+Text GLabel 1750 7250 3    50   Input ~ 0
 LED_CONN
-Text GLabel 2200 7150 3    50   Input ~ 0
+Text GLabel 2300 7250 3    50   Input ~ 0
 LED_PWR
 Wire Wire Line
-	2200 7100 2200 7150
+	2300 7200 2300 7250
 Wire Wire Line
-	1850 7150 1850 7100
+	1750 7250 1750 7200
 Wire Wire Line
-	1500 7100 1500 7150
+	1200 7200 1200 7250
 Wire Wire Line
-	1500 6850 1500 6900
+	1200 6950 1200 7000
 Wire Wire Line
-	1850 6850 1850 6900
+	1750 6950 1750 7000
 Wire Wire Line
-	2200 6850 2200 6900
+	2300 6950 2300 7000
 Wire Bus Line
 	7000 6000 7000 5950
 $Comp
 L Connector:JST_2Pin J2
 U 1 1 60D88C33
-P 2150 1200
-F 0 "J2" H 2250 1500 50  0000 C CNN
-F 1 "BATT CONN" H 2250 1400 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" H 2150 1200 50  0001 C CNN
-F 3 "~" H 2150 1200 50  0001 C CNN
-	1    2150 1200
+P 2200 1200
+F 0 "J2" H 2300 1500 50  0000 C CNN
+F 1 "BATT CONN" H 2300 1400 50  0000 C CNN
+F 2 "Connector_JST:JST_ACH_BM02B-ACHSS-GAN-ETF_1x02-1MP_P1.20mm_Vertical" H 2200 1200 50  0001 C CNN
+F 3 "~" H 2200 1200 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/jst-sales-america-inc/BM02B-ACHSS-GAN-TF-LF-SN/1647794" H 2200 1200 50  0001 C CNN "Source"
+	1    2200 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VBAT #PWR0155
 U 1 1 60D89E68
-P 2450 1100
-F 0 "#PWR0155" H 2100 1000 50  0001 C CNN
-F 1 "VBAT" V 2465 1228 50  0000 L CNN
-F 2 "" H 2450 1100 50  0001 C CNN
-F 3 "" H 2450 1100 50  0001 C CNN
-	1    2450 1100
+P 2500 1100
+F 0 "#PWR0155" H 2150 1000 50  0001 C CNN
+F 1 "VBAT" V 2515 1228 50  0000 L CNN
+F 2 "" H 2500 1100 50  0001 C CNN
+F 3 "" H 2500 1100 50  0001 C CNN
+	1    2500 1100
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1501,9 +1544,10 @@ L Device:R_Small R30
 U 1 1 60885B84
 P 3650 1900
 F 0 "R30" H 3709 1946 50  0000 L CNN
-F 1 "100k" H 3709 1855 50  0000 L CNN
+F 1 "100K" H 3709 1855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 3650 1900 50  0001 C CNN
 F 3 "~" H 3650 1900 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 3650 1900 50  0001 C CNN "Source"
 	1    3650 1900
 	1    0    0    -1  
 $EndComp
@@ -1562,13 +1606,14 @@ Wire Wire Line
 Wire Wire Line
 	9300 2150 9300 2250
 $Comp
-L Regulator_Switching:TPS65133DPD U5
+L rgba:TPS65133DPD U5
 U 1 1 604192F8
 P 9700 1700
 F 0 "U5" H 9700 2550 50  0000 C CNN
 F 1 "TPS65133DPD" H 9700 2450 50  0000 C CNN
-F 2 "Package_SON:WSON-12-1EP_3x3mm_P0.45mm_EP1.2x2mm" H 9750 1100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tps65135.pdf" H 9700 1550 50  0001 C CNN
+F 2 "rgba:WSON-12-1EP_3x3mm_P0.45mm_EP1.2x2mm" H 9750 1100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps65133.pdf" H 9700 1550 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 9700 1700 50  0001 C CNN "Source"
 	1    9700 1700
 	1    0    0    -1  
 $EndComp
@@ -1604,6 +1649,7 @@ F 0 "L51" H 10398 2096 50  0000 L CNN
 F 1 "4.7uH" H 10398 2005 50  0000 L CNN
 F 2 "Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder" H 10350 2050 50  0001 C CNN
 F 3 "~" H 10350 2050 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 10350 2050 50  0001 C CNN "Source"
 	1    10350 2050
 	1    0    0    -1  
 $EndComp
@@ -1620,6 +1666,7 @@ F 0 "C53" H 10450 1700 50  0000 L CNN
 F 1 "10uF" H 10450 1600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10350 1650 50  0001 C CNN
 F 3 "~" H 10350 1650 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 10350 1650 50  0001 C CNN "Source"
 	1    10350 1650
 	1    0    0    -1  
 $EndComp
@@ -1658,6 +1705,7 @@ F 0 "C50" H 8950 1200 50  0000 L CNN
 F 1 "10uF" H 8950 1100 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9200 1150 50  0001 C CNN
 F 3 "~" H 9200 1150 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 9200 1150 50  0001 C CNN "Source"
 	1    9200 1150
 	1    0    0    -1  
 $EndComp
@@ -1691,6 +1739,7 @@ F 0 "L50" V 9885 800 50  0000 C CNN
 F 1 "4.7uH" V 9794 800 50  0000 C CNN
 F 2 "Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder" H 9700 800 50  0001 C CNN
 F 3 "~" H 9700 800 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 9700 800 50  0001 C CNN "Source"
 	1    9700 800 
 	0    -1   -1   0   
 $EndComp
@@ -1729,6 +1778,7 @@ F 0 "C52" H 10442 1396 50  0000 L CNN
 F 1 "10uF" H 10442 1305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 10350 1350 50  0001 C CNN
 F 3 "~" H 10350 1350 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 10350 1350 50  0001 C CNN "Source"
 	1    10350 1350
 	1    0    0    -1  
 $EndComp
@@ -1740,6 +1790,7 @@ F 0 "C51" H 8950 1700 50  0000 L CNN
 F 1 "0.1uF" H 8900 1600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9200 1650 50  0001 C CNN
 F 3 "~" H 9200 1650 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 9200 1650 50  0001 C CNN "Source"
 	1    9200 1650
 	1    0    0    -1  
 $EndComp
@@ -1804,12 +1855,12 @@ $EndComp
 $Comp
 L power:GND #PWR02
 U 1 1 60B96123
-P 2450 1300
-F 0 "#PWR02" H 2450 1050 50  0001 C CNN
-F 1 "GND" H 2455 1127 50  0000 C CNN
-F 2 "" H 2450 1300 50  0001 C CNN
-F 3 "" H 2450 1300 50  0001 C CNN
-	1    2450 1300
+P 2500 1300
+F 0 "#PWR02" H 2500 1050 50  0001 C CNN
+F 1 "GND" H 2505 1127 50  0000 C CNN
+F 2 "" H 2500 1300 50  0001 C CNN
+F 3 "" H 2500 1300 50  0001 C CNN
+	1    2500 1300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1880,6 +1931,7 @@ F 0 "C26" V 6671 3200 50  0000 C CNN
 F 1 "1uF" V 6762 3200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 6900 3200 50  0001 C CNN
 F 3 "~" H 6900 3200 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 6900 3200 50  0001 C CNN "Source"
 	1    6900 3200
 	0    1    1    0   
 $EndComp
@@ -1918,33 +1970,28 @@ Connection ~ 8250 5300
 Wire Wire Line
 	8250 5300 8250 5400
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J1
+L rgba:USB_C_Receptacle_PowerOnly J1
 U 1 1 60F17D1E
-P 1100 1550
-F 0 "J1" H 1100 2300 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0" V 550 1550 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_UJC-HP-3-SMT-TR" H 1250 1550 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/670/ujc_hp_3_smt_tr-1842970.pdf" H 1250 1550 50  0001 C CNN
-	1    1100 1550
+P 1100 1300
+F 0 "J1" H 950 1700 50  0000 C CNN
+F 1 "CHARGE CONN" V 550 1300 50  0000 C CNN
+F 2 "rgba:USB_C_Receptacle_UJC-HP-3-SMT-TR" H 1250 1300 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1250 1300 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 1100 1300 50  0001 C CNN "Source"
+	1    1100 1300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0107
 U 1 1 60F8C098
-P 1850 2250
-F 0 "#PWR0107" H 1850 2000 50  0001 C CNN
-F 1 "GND" H 1855 2077 50  0000 C CNN
-F 2 "" H 1850 2250 50  0001 C CNN
-F 3 "" H 1850 2250 50  0001 C CNN
-	1    1850 2250
+P 1700 2000
+F 0 "#PWR0107" H 1700 1750 50  0001 C CNN
+F 1 "GND" H 1705 1827 50  0000 C CNN
+F 2 "" H 1700 2000 50  0001 C CNN
+F 3 "" H 1700 2000 50  0001 C CNN
+	1    1700 2000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1100 2450 1600 2450
-Wire Wire Line
-	1600 2450 1600 2250
-Wire Wire Line
-	1600 2250 1850 2250
 $Comp
 L power:VBUS #PWR0114
 U 1 1 60F9D97F
@@ -1956,14 +2003,6 @@ F 3 "" H 1700 950 50  0001 C CNN
 	1    1700 950 
 	0    1    1    0   
 $EndComp
-NoConn ~ 1700 2150
-NoConn ~ 1700 2050
-NoConn ~ 1700 1750
-NoConn ~ 1700 1650
-NoConn ~ 1700 1550
-NoConn ~ 1700 1450
-NoConn ~ 1700 1250
-NoConn ~ 1700 1150
 $Comp
 L Connector:Conn_01x01_Male J3
 U 1 1 6087C91C
@@ -2033,45 +2072,24 @@ $EndComp
 $Comp
 L Connector:Screw_Terminal_01x01 J11
 U 1 1 609FC53A
-P 6500 6800
-F 0 "J11" H 6580 6842 50  0000 L CNN
-F 1 "Screw 1" H 6580 6751 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 6500 6800 50  0001 C CNN
-F 3 "~" H 6500 6800 50  0001 C CNN
-	1    6500 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x01 J12
-U 1 1 609FCB85
-P 6500 7100
-F 0 "J12" H 6580 7142 50  0000 L CNN
-F 1 "Screw 2" H 6580 7051 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 6500 7100 50  0001 C CNN
-F 3 "~" H 6500 7100 50  0001 C CNN
-	1    6500 7100
+P 6500 6650
+F 0 "J11" H 6580 6692 50  0000 L CNN
+F 1 "Screw 1" H 6580 6601 50  0000 L CNN
+F 2 "rgba:MountingHole_1.2mm_M1_Pad" H 6500 6650 50  0001 C CNN
+F 3 "~" H 6500 6650 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 6500 6650 50  0001 C CNN "Source"
+	1    6500 6650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR013
 U 1 1 609FD253
-P 6300 6800
-F 0 "#PWR013" H 6300 6550 50  0001 C CNN
-F 1 "GND" H 6305 6627 50  0000 C CNN
-F 2 "" H 6300 6800 50  0001 C CNN
-F 3 "" H 6300 6800 50  0001 C CNN
-	1    6300 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR014
-U 1 1 60A0D566
-P 6300 7100
-F 0 "#PWR014" H 6300 6850 50  0001 C CNN
-F 1 "GND" H 6305 6927 50  0000 C CNN
-F 2 "" H 6300 7100 50  0001 C CNN
-F 3 "" H 6300 7100 50  0001 C CNN
-	1    6300 7100
+P 6300 6650
+F 0 "#PWR013" H 6300 6400 50  0001 C CNN
+F 1 "GND" H 6305 6477 50  0000 C CNN
+F 2 "" H 6300 6650 50  0001 C CNN
+F 3 "" H 6300 6650 50  0001 C CNN
+	1    6300 6650
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -2118,7 +2136,6 @@ F 3 "" H 5450 1150 50  0001 C CNN
 $EndComp
 NoConn ~ 5400 7500
 NoConn ~ 5400 6900
-NoConn ~ 800  2450
 Wire Wire Line
 	3750 1150 3650 1150
 $Comp
@@ -2134,15 +2151,16 @@ F 3 "~" H 3650 1150 50  0001 C CNN
 $EndComp
 Connection ~ 3650 1150
 $Comp
-L TPS62849DLCR:TPS62849DLCR U3
+L rgba:TPS62849DLCR U3
 U 1 1 60603459
 P 4250 1500
 F 0 "U3" H 4250 2115 50  0000 C CNN
 F 1 "TPS62849DLCR" H 4250 2024 50  0000 C CNN
-F 2 "SON50P200X150X100-8N" H 3800 650 50  0001 L BNN
-F 3 "" H 4250 1500 50  0001 L BNN
+F 2 "rgba:VSON-8_1.5x2mm_P0.5mm" H 3800 650 50  0001 L BNN
+F 3 "https://www.ti.com/lit/ds/symlink/tps62840.pdf" H 4250 1500 50  0001 L BNN
 F 4 "Texas Instruments" H 3800 650 50  0001 L BNN "Manufacturer"
-F 5 "SON50P200X150X100-8N" H 3800 650 50  0001 L BNN "Package"
+F 5 "DLC0008B" H 3800 650 50  0001 L BNN "Package"
+F 6 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 4250 1500 50  0001 C CNN "Source"
 	1    4250 1500
 	1    0    0    -1  
 $EndComp
@@ -2151,9 +2169,10 @@ L Device:L_Small L30
 U 1 1 6061509E
 P 4850 1150
 F 0 "L30" V 5035 1150 50  0000 C CNN
-F 1 "2.2uH" V 4944 1150 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder" H 4850 1150 50  0001 C CNN
+F 1 "4.7uH" V 4944 1150 50  0000 C CNN
+F 2 "Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder" H 4850 1150 50  0001 C CNN
 F 3 "~" H 4850 1150 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 4850 1150 50  0001 C CNN "Source"
 	1    4850 1150
 	0    -1   -1   0   
 $EndComp
@@ -2167,14 +2186,15 @@ F 0 "C31" H 5550 1250 50  0000 L CNN
 F 1 "10uF" H 5500 1150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 5450 1250 50  0001 C CNN
 F 3 "~" H 5450 1250 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 5450 1250 50  0001 C CNN "Source"
 	1    5450 1250
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0117
 U 1 1 606150CD
 P 5450 1350
-F 0 "#PWR?" H 5450 1100 50  0001 C CNN
+F 0 "#PWR0117" H 5450 1100 50  0001 C CNN
 F 1 "GND" H 5450 1200 50  0000 C CNN
 F 2 "" H 5450 1350 50  0001 C CNN
 F 3 "" H 5450 1350 50  0001 C CNN
@@ -2182,10 +2202,10 @@ F 3 "" H 5450 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG?
+L power:PWR_FLAG #FLG0102
 U 1 1 606150D9
 P 5150 1150
-F 0 "#FLG?" H 5150 1225 50  0001 C CNN
+F 0 "#FLG0102" H 5150 1225 50  0001 C CNN
 F 1 "PWR_FLAG" H 5150 1323 50  0000 C CNN
 F 2 "" H 5150 1150 50  0001 C CNN
 F 3 "~" H 5150 1150 50  0001 C CNN
@@ -2202,10 +2222,10 @@ Wire Wire Line
 Wire Wire Line
 	3650 1350 3750 1350
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0118
 U 1 1 6074327C
 P 3650 1350
-F 0 "#PWR?" H 3650 1100 50  0001 C CNN
+F 0 "#PWR0118" H 3650 1100 50  0001 C CNN
 F 1 "GND" H 3655 1177 50  0000 C CNN
 F 2 "" H 3650 1350 50  0001 C CNN
 F 3 "" H 3650 1350 50  0001 C CNN
@@ -2220,6 +2240,7 @@ F 0 "C30" H 3400 1250 50  0000 L CNN
 F 1 "10uF" H 3400 1150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 3650 1250 50  0001 C CNN
 F 3 "~" H 3650 1250 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 3650 1250 50  0001 C CNN "Source"
 	1    3650 1250
 	1    0    0    -1  
 $EndComp
@@ -2232,10 +2253,10 @@ Wire Wire Line
 	4750 1800 4750 1950
 Connection ~ 4750 1800
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0119
 U 1 1 608286EB
 P 4750 1950
-F 0 "#PWR?" H 4750 1700 50  0001 C CNN
+F 0 "#PWR0119" H 4750 1700 50  0001 C CNN
 F 1 "GND" H 4755 1777 50  0000 C CNN
 F 2 "" H 4750 1950 50  0001 C CNN
 F 3 "" H 4750 1950 50  0001 C CNN
@@ -2251,4 +2272,43 @@ Wire Wire Line
 Wire Wire Line
 	3650 1800 3750 1800
 Connection ~ 5450 1150
+NoConn ~ 1700 1250
+NoConn ~ 1700 1350
+Wire Wire Line
+	1250 2000 1700 2000
+Wire Wire Line
+	1700 1650 1700 2000
+Connection ~ 1700 2000
+Connection ~ 1750 6650
+Wire Wire Line
+	1200 6650 1750 6650
+Wire Wire Line
+	1750 6650 2300 6650
+Text Notes 3450 6450 0    50   ~ 0
+Power/Play/Pause
+Wire Wire Line
+	6500 1800 6500 2000
+$Comp
+L Connector:Screw_Terminal_01x01 J12
+U 1 1 60D056FB
+P 6500 7200
+F 0 "J12" H 6580 7242 50  0000 L CNN
+F 1 "Screw 1" H 6580 7151 50  0000 L CNN
+F 2 "rgba:MountingHole_1.2mm_M1_Pad" H 6500 7200 50  0001 C CNN
+F 3 "~" H 6500 7200 50  0001 C CNN
+F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 6500 7200 50  0001 C CNN "Source"
+	1    6500 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0130
+U 1 1 60D05BE1
+P 6300 7200
+F 0 "#PWR0130" H 6300 6950 50  0001 C CNN
+F 1 "GND" H 6305 7027 50  0000 C CNN
+F 2 "" H 6300 7200 50  0001 C CNN
+F 3 "" H 6300 7200 50  0001 C CNN
+	1    6300 7200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

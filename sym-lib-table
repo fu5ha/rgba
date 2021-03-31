@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name rgba)(type Legacy)(uri ${KIPRJMOD}/rgba.lib)(options "")(descr ""))
 )

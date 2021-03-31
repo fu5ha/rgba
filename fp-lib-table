@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name rgba)(type KiCad)(uri ${KIPRJMOD}/rgba.pretty)(options "")(descr ""))
+  (lib (name JST-ACH2)(type KiCad)(uri G:/KiCad/ext_libs/JST-ACH2)(options "")(descr ""))
+)
