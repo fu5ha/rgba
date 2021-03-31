@@ -1,6 +1,6 @@
 # `rgba` - reasonably good bluetooth audio
 
-The `rgba` is a tiny, extremely high fidelity Bluetooth audio receiver meant to attach inline to the cord of
+The `rgba` is a tiny (41x20mm PCB), extremely high fidelity Bluetooth audio receiver meant to attach inline to the cord of
 a pair of IEMs. It aims to provide as high quality audio as possible while retaining reasonable battery life and
 its small form factor. It is designed to pair well with high sensitivity, low impedance IEMs. For use with
 lower sensitivity, harder to drive headphones (or IEMs), you'll need to adjust the values of the resistor feedback network
