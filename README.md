@@ -22,7 +22,7 @@ Here are a couple of renders of the latest version of the PCB.
 ## Bill of Materials
 
 A bill of materials is available in HTML format, with links to sourcing information and
-interactive PCB board view useful when performing assembly. See the `bom` folder for latest.
+interactive PCB board view useful when performing assembly. View it here: <https://termhn.github.io/rgba/ibom.html>
 
 Not included in the BOM is a battery. You can use any single cell LiPo (3.7V) LiPo battery up to
 500mAh in capacity. You'll likely need to either re-terminate the batteries with the proper connector
