@@ -36,4 +36,4 @@ I recommend ordering PCBs through OSH Park because their 4 layer process has the
 (JLCPCB for example will cost you a lot more to get the needed 0.2/0.4 diameter vias), is good quality, and are a cool
 organization to support. Plus their PCBs are a super purdy purple :d
 
-You can order some of the rev 1.1 PCBs directly using this link: <https://oshpark.com/shared_projects/niWrHNKc>.
+You can order some of the rev 1.1 PCBs directly using this link: -link will be inserted here when it has been tested working-
