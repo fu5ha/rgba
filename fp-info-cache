@@ -1,4 +1,4 @@
-11320192464543
+16171927441996
 rgba
 FSC-BT806
 Feasycom BT806 Bluetooth Low Energy audio module featuring Qualcomm CSR8670/8675
@@ -28,6 +28,13 @@ SolderWire_AudioOut_1x03_P2.0mm
 3
 3
 rgba
+TL4110AF160Q
+TL4110AF160Q-3
+Switch
+0
+2
+2
+rgba
 USB_C_Receptacle_UJC-HP-3-SMT-TR
 USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
 usb usb-c 2.0 pd
@@ -41,6 +48,20 @@ Texas Instruments DLC0008B package
 0
 8
 8
+rgba
+VSSOP-8_3.0x3.0mm_P0.65mm
+VSSOP-8 3.0 x 3.0, http://www.ti.com/lit/ds/symlink/lm75b.pdf
+VSSOP-8 3.0 x 3.0
+0
+8
+8
+rgba
+WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias
+WSON, 6 Pin (http://www.ti.com/lit/ds/symlink/tps61040.pdf#page=35), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+12
+7
 rgba
 WSON-12-1EP_3x3mm_P0.45mm_EP1.2x2mm
 WSON-12 http://www.ti.com/lit/ds/symlink/lm27762.pdf
