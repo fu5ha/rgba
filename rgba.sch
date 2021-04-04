@@ -1501,29 +1501,6 @@ F 3 "~" H 5200 7400 50  0001 C CNN
 	1    5200 7400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Small R30
-U 1 1 60885B84
-P 3650 1900
-F 0 "R30" H 3709 1946 50  0000 L CNN
-F 1 "100K" H 3709 1855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 3650 1900 50  0001 C CNN
-F 3 "~" H 3650 1900 50  0001 C CNN
-F 4 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 3650 1900 50  0001 C CNN "Source"
-	1    3650 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR04
-U 1 1 60885F76
-P 3650 2000
-F 0 "#PWR04" H 3650 1750 50  0001 C CNN
-F 1 "GND" H 3655 1827 50  0000 C CNN
-F 2 "" H 3650 2000 50  0001 C CNN
-F 3 "" H 3650 2000 50  0001 C CNN
-	1    3650 2000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8300 1050 8750 1050
 Connection ~ 8750 1550
@@ -2080,20 +2057,6 @@ F 3 "~" H 3650 1150 50  0001 C CNN
 $EndComp
 Connection ~ 3650 1150
 $Comp
-L rgba:TPS62849DLCR U3
-U 1 1 60603459
-P 4250 1500
-F 0 "U3" H 4250 2115 50  0000 C CNN
-F 1 "TPS62849DLCR" H 4250 2024 50  0000 C CNN
-F 2 "rgba:VSON-8_1.5x2mm_P0.5mm" H 3800 650 50  0001 L BNN
-F 3 "https://www.ti.com/lit/ds/symlink/tps62840.pdf" H 4250 1500 50  0001 L BNN
-F 4 "Texas Instruments" H 3800 650 50  0001 L BNN "Manufacturer"
-F 5 "DLC0008B" H 3800 650 50  0001 L BNN "Package"
-F 6 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 4250 1500 50  0001 C CNN "Source"
-	1    4250 1500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:L_Small L30
 U 1 1 6061509E
 P 4850 1150
@@ -2176,11 +2139,6 @@ $EndComp
 Connection ~ 3650 1350
 Wire Wire Line
 	3000 1150 3150 1150
-Wire Wire Line
-	4750 1650 4750 1800
-Wire Wire Line
-	4750 1800 4750 1950
-Connection ~ 4750 1800
 $Comp
 L power:GND #PWR0119
 U 1 1 608286EB
@@ -2192,14 +2150,8 @@ F 3 "" H 4750 1950 50  0001 C CNN
 	1    4750 1950
 	1    0    0    -1  
 $EndComp
-Connection ~ 4750 1950
 Wire Wire Line
 	3350 1150 3650 1150
-Connection ~ 3650 1800
-Wire Wire Line
-	3000 1800 3650 1800
-Wire Wire Line
-	3650 1800 3750 1800
 Connection ~ 5450 1150
 NoConn ~ 1700 1250
 NoConn ~ 1700 1350
@@ -2279,4 +2231,26 @@ F 3 "" H 2300 2250 50  0001 C CNN
 	1    2300 2250
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	4750 1800 4750 1950
+Wire Wire Line
+	4750 1650 4750 1800
+Connection ~ 4750 1800
+Connection ~ 4750 1950
+$Comp
+L rgba:TPS62849DLCR U3
+U 1 1 60603459
+P 4250 1500
+F 0 "U3" H 4250 2115 50  0000 C CNN
+F 1 "TPS62849DLCR" H 4250 2024 50  0000 C CNN
+F 2 "rgba:VSON-8_1.5x2mm_P0.5mm" H 3800 650 50  0001 L BNN
+F 3 "https://www.ti.com/lit/ds/symlink/tps62840.pdf" H 4250 1500 50  0001 L BNN
+F 4 "Texas Instruments" H 3800 650 50  0001 L BNN "Manufacturer"
+F 5 "DLC0008B" H 3800 650 50  0001 L BNN "Package"
+F 6 "https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=0e56c5cecb" H 4250 1500 50  0001 C CNN "Source"
+	1    4250 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1800 3750 1800
 $EndSCHEMATC
